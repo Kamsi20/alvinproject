@@ -3,14 +3,14 @@ import { FaArrowRight } from "react-icons/fa6";
 import img1 from '/src/assets/1.jpg'
 import img2 from '/src/assets/2.jpg'
 import img3 from '/src/assets/3.jpg'
-import img4 from '/src/assets/4.jpg'
-import img5 from '/src/assets/5.jpg'
-import img6 from '/src/assets/6.jpg'
-import img7 from '/src/assets/7.jpg'
-import img8 from '/src/assets/8.jpg'
-import img9 from '/src/assets/9.jpg'
-import img10 from '/src/assets/10.jpg'
-import img11 from '/src/assets/11.jpg'
+import img4 from '/src/assets/4.png'
+import img5 from '/src/assets/5.png'
+import img6 from '/src/assets/6.png'
+import img7 from '/src/assets/7.png'
+import img8 from '/src/assets/8.png'
+import img9 from '/src/assets/9.png'
+import img10 from '/src/assets/10.png'
+import img11 from '/src/assets/11.png'
 
 const Branding = () => {
   return (
