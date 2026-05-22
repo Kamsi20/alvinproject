@@ -1,5 +1,16 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa6";
+import img1 from '/src/assets/1.jpg'
+import img2 from '/src/assets/2.jpg'
+import img3 from '/src/assets/3.jpg'
+import img4 from '/src/assets/4.jpg'
+import img5 from '/src/assets/5.jpg'
+import img6 from '/src/assets/6.jpg'
+import img7 from '/src/assets/7.jpg'
+import img8 from '/src/assets/8.jpg'
+import img9 from '/src/assets/9.jpg'
+import img10 from '/src/assets/10.jpg'
+import img11 from '/src/assets/11.jpg'
 
 const Branding = () => {
   return (
@@ -32,49 +43,49 @@ const Branding = () => {
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/1.jpg"
+                src={img1} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/2.jpg"
+                src={img2} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/3.jpg"
+               src={img3} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/4.png"
+                src={img4} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/5.png"
+               src={img5} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/6.png"
+               src={img6} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/7.png"
+               src={img7} 
               />
             </div>
             <div>
               <img
                 className="h-95 w-80 rounded-2xl bg-red-700 mb-4 mr-4 hover:bg-red-300 hover:shadow-2xl"
-                src="src/assets/8.png"
+                 src={img8} 
               />
             </div>
           </div>
@@ -82,9 +93,9 @@ const Branding = () => {
         <hr className="text-gray-400 " />
         <p className="text-sm font-bold pt-10">BRANDS WE'VE WORKED WITH</p>
         <div className="flex lg:flex-row flex-col gap-10 lg:pl-30 h-65 mt-5 w-250 hover:border-2 rounded-2xl">
-          <div className="w-60 "><img src="src/assets/9.png" /></div>
-          <div className="w-60 "><img src="src/assets/10.png" /></div>
-          <div className="w-60 "><img src="src/assets/11.png" /></div>
+          <div className="w-60 "><img  src={img9}  /></div>
+          <div className="w-60 "><img  src={img10}  /></div>
+          <div className="w-60 "><img  src={img11}  /></div>
          
         </div>
         <div className="bg-gray-300 rounded-2xl lg:mt-20 mt-140 flex lg:flex-row flex-col lg:gap-30 gap-10 lg:h-50 h-90 ">
